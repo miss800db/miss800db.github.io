@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.miss800dB.com</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.gif">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="m">
+        <marquee>I'M TOO SEXY FOR ALL THIS STRESS ☆ STYLISH AND SMART ☆ I ALWAYS WAKE UP ON THE CUTE SIDE OF THE BED! ☆ TALK SHIT? GET HIT! ☆ KEEP CALM AND LOVE HIGH HEELS ☆ SO GLAM I SWEAT GLITTER</marquee>
+    </div>
+    <div class="m b">
+        <marquee direction="right">RAN BY: EKLECTIKA, ETEREA ☆ WEB DEV: SYTRA ☆ LCD RECORDS, AGATKA ISKRA 2025</marquee>
+    </div>
+    <p id="tl"><img src="img/logo.gif" width="500px"><br>I DO COKE<br>MANI-PEDI<br>SEX TALK<br>TIGHT DRESS<br>DIE YOUNG<br>TAN LINE<br>GET CRUNK</p> 
+    <img src="img/cd.gif" id="cd">
+    <div class="container">
+        <div class="sliding-background"></div>
+    </div>
+</body>
+</html>

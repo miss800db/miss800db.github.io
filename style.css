@@ -35,10 +35,10 @@
 } */
 
 #cd {
-    width: 700px; /*800px*/
+    width: 395px; /*800px*/
     position: relative;
-    right: 190px;
-    bottom: 25px;
+    right: 31px;
+    bottom: -125px;
     z-index: -1;
     animation: rotation 10s infinite linear;
 }

@@ -107,3 +107,11 @@ body {
       transform: translate3d(-1920px, 0, 0);
     }
 }
+
+@media screen and (min-width: 601px) {
+    #cd {
+        right: 590px;
+        width: 550px;
+        bottom: -235px;
+    }
+} 

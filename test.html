@@ -6,11 +6,13 @@
     <title>www.miss800dB.com</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.gif">
     <link rel="stylesheet" href="style.css">
-    <audio controls style="display:none" autoplay loop>
-        <source src="../img/full.mp3" type="audio/mpeg">
-    </audio>
 </head>
 <body>
+    <script>
+        var audio = new Audio("../img/full.mp3");
+        audio.loop = true;
+        audio.play();
+    </script>
     <div class="m">
         <marquee>I'M TOO SEXY FOR ALL THIS STRESS ☆ STYLISH AND SMART ☆ I ALWAYS WAKE UP ON THE CUTE SIDE OF THE BED! ☆ TALK SHIT? GET HIT! ☆ KEEP CALM AND LOVE HIGH HEELS ☆ SO GLAM I SWEAT GLITTER</marquee>
     </div>

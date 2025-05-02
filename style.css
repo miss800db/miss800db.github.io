@@ -83,6 +83,10 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    all: unset;
+}
+
 
 .container {
     overflow: hidden;

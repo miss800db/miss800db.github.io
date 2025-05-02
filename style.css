@@ -81,16 +81,12 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-
-    max-width: 412px; /* Galaxy A55 width */
-    margin: 0 auto;
-    background: #f0f0f0; /* optional background outside */
-}
-
-html, body {
+    overflow-y: hidden;
     height: 100%;
     overflow-x: hidden;
+    height: auto;
 }
+
 
 .container {
     overflow: hidden;

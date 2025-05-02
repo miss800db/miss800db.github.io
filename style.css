@@ -27,20 +27,19 @@
     width: 100%;
 }
 
-/*#cd {
-    width: 700px;
-    position: relative;
-    right: 450px;
-    bottom: 350px;}
-} */
+.cd-wrapper {
+    position: fixed;
+    bottom: -350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 
 #cd {
-    width: 395px; /*800px*/
-    bottom: -150px;
-    right: -10px;
-    z-index: -1;
+    width: 395px;
     animation: rotation 10s infinite linear;
-    position: fixed;
+    display: block;
+    z-index: -2;
 }
 
 @keyframes rotation {
@@ -82,6 +81,15 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
+    max-width: 412px; /* Galaxy A55 width */
+    margin: 0 auto;
+    background: #f0f0f0; /* optional background outside */
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -107,11 +115,3 @@ body {
       transform: translate3d(-1920px, 0, 0);
     }
 }
-
-@media screen and (min-width: 601px) {
-    #cd {
-        right: 590px;
-        width: 550px;
-        bottom: -235px;
-    }
-} 
